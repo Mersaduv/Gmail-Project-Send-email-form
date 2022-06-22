@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/GitP/mailSendding/Complementary/Cssmail.css">
+    <title>Gmail</title>
+</head>
+<body>
+    <div class="content" id="content">
+
+        <div class="box" id="box">
+            <div class="jam" id="jam"><img src="/GitP/mailSendding/animator/plusee.png" width="130"><p>Compose</p></div>
+            
+        </div>
+        <div class="loader">
+            <img src="/GitP/mailSendding/animator/spinner.gif" id="spinner" width="100">
+        </div>
+
+        <div class="container" id="container">
+            <header class="header"> New Message</header>
+            <form id="email-form" action="#">
+            <div class="row"> <input type="email" id="email" placeholder="To:"> <span>Cc Bcc</span> </div>
+            <div class="row"> <input type="text" id="subject" placeholder="subject:"></div>
+            <div class="row"> <textarea name="typetext" id="message" cols="100" rows="20"></textarea></div>
+            
+            
+            <div class="rowbtn">
+                
+                    <button id="sendBtn" class="sentbtn" type="submit" name="action" disabled>Send
+                        
+                    </button>
+                
+                
+                    <button id="resetBtn" class="btn" type="submit">Reset 
+                    </button>
+               
+        </div>
+    </form>
+        </div>
+
+    </div>
+    <script src="/GitP/mailSendding/Complementary/appmail.js"></script>
+    <script src="/GitP/mailSendding/Complementary/showForm.js"></script>
+</body>
+</html>
