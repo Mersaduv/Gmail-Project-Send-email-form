@@ -34,7 +34,7 @@ function validatefield() {
   }
   let error = document.querySelectorAll(".error");
   if (email.value !== "" && textarea.value !== "") {
-    if (error.length === 0) {
+    if (error.length === 1) {
       sendButn.disabled = false;
       sendButn.style.backgroundColor='#1a73e8'
 
